@@ -70,6 +70,12 @@ body {
     z-index: -1;
 }
 
+/* Category buttons */
+.btn-secondary {
+    background-color: #0c343d;
+    border-color: #0c343d;
+}
+
 /* Navigation bar */
 
 .navbar {
