@@ -100,3 +100,7 @@ https://www.freelogodesign.org/manager/signin?r=https%3A%2F%2Fwww.freelogodesign
 
 Images found 
 Here https://wallpapersafari.com/w/eRjNCp
+
+# Libraries 
+
+jQuery https://releases.jquery.com/
