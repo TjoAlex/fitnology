@@ -10,17 +10,227 @@
 {% endblock %}
 
 {% block content %}
-<div class="container h-100">
-    <div class="row h-100">
-        <div class="col-7 col-md-6 my-auto">
-            <h1 class="display-4 logo-font text-white">
-                New Deals are here!
-            </h1>
-            <div class="my-5">
+<!--Hero Section-->
+<section style="background: url('/media/spara.jpg'); background-size: cover; background-position: center center"
+    class="hero">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <h1>Fitnology - Where Thecnology meets Fitness and Health</h1>
                 <h4><a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop
                         Now</a></h4>
             </div>
         </div>
     </div>
-</div>
+</section>
+<!--Intro Section-->
+<section class="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <h2 class="h3">What we are</h2>
+                <p class="text-big">This is the website that wants to help you in your training journey by offering
+                    products carefully selected according to customers' needs and wishes, well adapted for training and
+                    to constantly ensure that your training becomes an enjoyable experience. We believe that it should
+                    be easy to be able to keep track of yourself so that you can have a healthy lifestyle without having
+                    to think about it. Make sure to become a member to get even more experience out of the website and
+                    take a part of all the blog posts as well as product reviews and much more.
+                </p>
+                <a href="{% url 'products' %}">Become a member now</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Post One-->
+<section class="featured-posts no-padding-top">
+    <div class="container">
+        <div class="row d-flex align-items-stretch">
+            <div class="col">
+                <div class="text-inner d-flex align-items-center">
+                    <div class="content">
+                        <header class="post-header">
+                            <h2 class="h4">What we are</h2>
+                        </header>
+                        <p>This is the website that wants to help you in your training journey by offering
+                            products carefully selected according to customers' needs and wishes, well adapted for
+                            training and
+                            to constantly ensure that your training becomes an enjoyable experience. We believe that it
+                            should
+                            be easy to be able to keep track of yourself so that you can have a healthy lifestyle
+                            without having
+                            to think about it. Make sure to become a member to get even more experience out of the
+                            website and
+                            take a part of all the blog posts as well as product reviews and much more.</p><a
+                            href="{% url 'products' %}">Become a member now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Divider One-->
+        <section style="background: url(/media/post1.jpg); background-size: cover;" class="divider">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua</h2><a href="#" class="hero-link">View More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Post Two-->
+        <div class="row d-flex align-items-stretch">
+            <div class="col">
+                <div class="text-inner d-flex align-items-center">
+                    <div class="content">
+                        <header class="post-header">
+                            <h2 class="h4">What we offer</h2>
+                        </header>
+                        <p>Not only is this a place to find technology products that will be your helping guide trough
+                            your
+                            fitness journey, it's also a place to learn more abut this new field in thecnology and get a
+                            bigger
+                            understanding of how they can be helpfull to maintain a healthy life. Technology today have
+                            a big
+                            focus regarding simplicity and in our rushing society sometimes taking care of yourself and
+                            tracking
+                            how you actually are doing can be a daunting thing. That is why we are here to let you know
+                            that
+                            there is a simpley way to make sure you are living your best life by providing information,
+                            inspiration and products made to keep track on your body wich will have a huge impact on
+                            your mood,
+                            energy and focus. Does it sound interesting? Become a member today and read more about it on
+                            our
+                            blog <a href="#">Here</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Divider Two-->
+        <section style="background: url(/media/post2.jpg); background-size: cover; background-position: center bottom"
+            class="divider">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua</h2><a href="#" class="hero-link">View More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Post Tree-->
+        <div class="row d-flex align-items-stretch">
+            <div class="col">
+                <div class="text-inner d-flex align-items-center">
+                    <div class="content">
+                        <header class="post-header">
+                            <h2 class="h4">How it works</h2>
+                        </header>
+                        <p>By starting to explore the website you will notice that shopping is vailable for everyone yet
+                            reading the blog posts and leaving comments and reviews is only for you who choose to become
+                            a meber. It is free and will provide you with more things than just products. You will be
+                            able to connect, get a bigger understanding of why thecnology can have a impact on your life
+                            and learn more trough discussions amongst other members. You will also be able to find
+                            further inspiration on our blog regarding food and other fun ways of becoming more active in
+                            your life. Give it a try! <a href="">Become a member today!</a></p>
+                    </div>
+                </div>
+            </div>
+            <!--Divider Tree-->
+            <section style="background: url(/media/post3.jpg); background-size: cover; background-position: center"
+                class="divider">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt
+                                ut labore et dolore magna aliqua</h2><a href="#" class="hero-link">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>
+<!--Latest Product Section-->
+<section class="latest-posts">
+    <div class="container">
+        <header>
+            <h2>Bloged Products</h2>
+        </header>
+        <div class="row">
+            <div class="post col-md-4">
+                <div class="post-thumbnail"><a href="post.html"><img src="/media/fitbit_charge5.png" alt="..."
+                            class="img-fluid"></a></div>
+                <div class="post-details">
+                    <div class="post-meta d-flex justify-content-between">
+                        <div class="category"><a href="#">Smartwatch</a></div>
+                    </div><a href="post.html">
+                        <h3 class="h4">Fitbit Charge 5</h3>
+                    </a>
+                    <p class="text-muted">Don't let this staple be forgotten. Whit its sleek look and easy navigation
+                        you will get full controle over you daily movement and more.</p>
+                </div>
+            </div>
+            <div class="post col-md-4">
+                <div class="post-thumbnail"><a href="post.html"><img src="media/fitbit_scale_black.png" alt="..."
+                            class="img-fluid"></a></div>
+                <div class="post-details">
+                    <div class="post-meta d-flex justify-content-between">
+                        <div class="category"><a href="#">Smart Scale</a></div>
+                    </div><a href="post.html">
+                        <h3 class="h4">Fitbit Smart Scale</h3>
+                    </a>
+                    <p class="text-muted">Scales are a bathroom staple, yet why not make it a bathroom assistant
+                        tracking more than a number.</p>
+                </div>
+            </div>
+            <div class="post col-md-4">
+                <div class="post-thumbnail"><a href="post.html"><img src="media/fitbit_versa2_black.png" alt="..."
+                            class="img-fluid"></a></div>
+                <div class="post-details">
+                    <div class="post-meta d-flex justify-content-between">
+                        <div class="category"><a href="#">Smartwatch</a></div>
+                    </div><a href="post.html">
+                        <h3 class="h4">Fitbit Versa 2</h3>
+                    </a>
+                    <p class="text-muted">Let's say this will become your new best friend.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Contact Section-->
+<section class="newsletter no-padding-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Contact Us</h2>
+                <p class="text-big">Have any questions? Wait no longer, send us a message and we will make sure to give
+                    you a reply.</p>
+            </div>
+            <div class="col-md-8">
+                <div class="form-holder">
+                    <form action="#">
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="password" class="form-control" id="name" placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Type Here..."
+                                rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Footer-->
+{% include 'includes/footer.html' %}
 {% endblock %}

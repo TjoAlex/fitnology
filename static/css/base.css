@@ -3,11 +3,204 @@ html {
 }
 
 body {
-    background: url('/media/background7.jpg') no-repeat center center fixed;
-    background-size: cover;
-    height: calc(100vh - 164px);
-    color: #555;
     font-family: 'Dosis', sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #0c343d;
+    background-color: #fff;
+}
+
+/*
+* ==========================================================
+*     HERO SECTION
+* ==========================================================
+*/
+section.hero {
+    padding: 0;
+    color: #fff;
+}
+
+section.hero .container {
+    padding: 200px 20px;
+    position: relative;
+}
+
+section.hero h1 {
+    line-height: 1.2em;
+    color: #0c343d;
+}
+
+section.hero .continue {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    text-decoration: none !important;
+    color: inherit !important;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    opacity: 0.8;
+}
+
+section.hero .continue i {
+    margin-right: 5px;
+}
+
+/* Hero Section Media Query ------------------------------------- */
+@media (max-width: 767px) {
+    section.hero .container {
+        padding: 150px 20px;
+    }
+}
+
+/*
+* ==========================================================
+*     FEATURED POSTS SECTION
+* ==========================================================
+*/
+section.featured-posts .row:nth-of-type(odd) .text {
+    background: #fafafa;
+}
+
+section.featured-posts .row:last-of-type {
+    margin-bottom: 0;
+}
+
+section.featured-posts p {
+    font-weight: 400;
+    color: #777;
+    font-size: 0.95em;
+}
+
+section.featured-posts .text-inner {
+    padding: 70px 30px;
+    height: 100%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+section.featured-posts a {
+    color: inherit;
+    text-decoration: none;
+}
+
+section.featured-posts h2 {
+    line-height: 1.1em;
+    color: #333;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+section.featured-posts h2:hover {
+    color: #555;
+}
+
+section.featured-posts .avatar {
+    max-width: 40px;
+    min-width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+section.featured-posts .title,
+section.featured-posts .date,
+section.featured-posts .comments {
+    font-size: 0.8em;
+    font-weight: 400;
+    color: #999;
+}
+
+section.featured-posts .title i,
+section.featured-posts .date i,
+section.featured-posts .comments i {
+    margin-right: 5px;
+}
+
+section.featured-posts .title::after,
+section.featured-posts .date::after,
+section.featured-posts .comments::after {
+    content: '|';
+    display: inline-block;
+    margin: 0 7px;
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+section.featured-posts .comments::after {
+    display: none;
+}
+
+section.featured-posts .image {
+    max-height: 200px;
+    width: auto;
+    overflow: hidden;
+    padding: 0;
+}
+
+section.featured-posts .image img {
+    height: 100%;
+}
+
+section.featured-posts .post-header {
+    margin-bottom: 10px;
+}
+
+section.featured-posts .post-footer {
+    margin-top: 30px;
+}
+
+/* Featured Posts Section Media Query ------------------------------------- */
+@media (max-width: 991px) {
+    section.featured-posts .image {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        max-height: 300px;
+        min-height: auto !important;
+    }
+
+    section.featured-posts .image img {
+        width: 100%;
+        height: auto !important;
+    }
+
+    section.featured-posts .text {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+}
+
+@media (max-width: 575px) {
+    section.featured-posts .post-footer {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 350px) {
+    section.featured-posts .text-inner {
+        padding: 15px;
+    }
+
+    section.featured-posts .post-footer {
+        font-size: 0.75em;
+    }
+}
+
+section {
+    padding: 80px 0;
+    overflow-x: hidden;
+}
+
+/*
+* ==========================================================
+*     DIVIDER SECTION
+* ==========================================================
+*/
+section.divider {
+    color: #fff;
 }
 
 /* from Bulma */
@@ -28,7 +221,7 @@ body {
 }
 
 .shop-now-button {
-    background: black;
+    background: #0c343d;
     color: white;
     min-width: 260px;
 }
@@ -70,6 +263,11 @@ body {
     z-index: -1;
 }
 
+/* Delivery Banner */
+.bg-black {
+    background: #0c343d !important;
+}
+
 /* Category buttons */
 .btn-secondary {
     background-color: #0c343d;
@@ -104,21 +302,22 @@ body {
 
 /* Continue shopping button */
 .btn-black {
-    background: black;
+    background: #0c343d;
+    ;
     color: white;
 }
 
 .btn-outline-black {
     background: white;
-    color: black !important;
+    color: #0c343d !important;
     /* use important to override link colors for <a> elements */
-    border: 1px solid black;
+    border: 1px solid #0c343d;
 }
 
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
-    background: black;
+    background: #0c343d;
     color: white !important;
 }
 
@@ -188,6 +387,122 @@ a.category-badge>span.badge:hover {
 
 .toast-capper {
     height: 2px;
+}
+
+/*
+* ==========================================================
+*     FOOTER
+* ==========================================================
+*/
+footer.main-footer {
+    background: #0c343d;
+    padding: 100px 0 0;
+    color: #fff;
+}
+
+footer.main-footer .contact-details p {
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 0.95em;
+}
+
+footer.main-footer .contact-details a {
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
+footer.main-footer a {
+    color: inherit;
+    font-weight: 300;
+    margin-bottom: 7px;
+}
+
+footer.main-footer a:hover,
+footer.main-footer a:focus {
+    color: #999;
+}
+
+footer.main-footer ul {
+    margin-right: 30px;
+}
+
+footer.main-footer .list-unstyled a {
+    font-size: 0.95em;
+}
+
+footer.main-footer .latest-posts .image {
+    max-width: 50px;
+    padding: 4px;
+    border: 2px solid #333;
+    margin-right: 10px;
+}
+
+footer.main-footer .latest-posts a {
+    font-size: 0.95em;
+    text-decoration: none;
+}
+
+footer.main-footer .latest-posts a:hover {
+    color: #fff;
+}
+
+footer.main-footer .latest-posts strong {
+    display: block;
+}
+
+footer.main-footer .latest-posts .date {
+    font-size: 0.85em;
+    color: #aaa;
+}
+
+footer.main-footer .copyrights {
+    background: #222;
+    margin-top: 100px;
+    padding: 20px 0;
+    font-size: 0.9em;
+}
+
+footer.main-footer .copyrights * {
+    margin-bottom: 0;
+}
+
+footer.main-footer .social-menu {
+    margin-top: 20px;
+}
+
+footer.main-footer .social-menu li {
+    padding: 0 5px;
+}
+
+footer.main-footer .date::after,
+footer.main-footer .title::after {
+    display: none !important;
+}
+
+/* Footer Media Query ------------------------------------- */
+@media (max-width: 767px) {
+    footer.main-footer div[class*="col-"] {
+        margin-bottom: 40px;
+    }
+
+    footer.main-footer div[class*="col-"]:last-of-type {
+        margin-bottom: 0;
+    }
+
+    footer.main-footer .latest-posts>a {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    footer.main-footer .copyrights div[class*="col-"] {
+        margin-bottom: 20px;
+        text-align: center !important;
+    }
+
+    footer.main-footer .copyrights div[class*="col-"]:last-of-type {
+        margin-bottom: 0;
+    }
 }
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
