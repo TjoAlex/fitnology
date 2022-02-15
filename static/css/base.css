@@ -73,7 +73,7 @@ section.featured-posts p {
 }
 
 section.featured-posts .text-inner {
-    padding: 70px 30px;
+    padding: 50px 30px;
     height: 100%;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -86,7 +86,6 @@ section.featured-posts a {
 
 section.featured-posts h2 {
     line-height: 1.1em;
-    color: #333;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
