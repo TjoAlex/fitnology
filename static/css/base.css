@@ -388,6 +388,17 @@ a.category-badge>span.badge:hover {
     height: 2px;
 }
 
+/* Country button */
+select,
+select option {
+    color: #0c343d;
+}
+
+select:invalid,
+select option[value=""] {
+    color: #aab7c4 !important;
+}
+
 /*
 * ==========================================================
 *     FOOTER
