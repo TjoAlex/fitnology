@@ -1,6 +1,6 @@
 # Full page code borrowed from code institute Boutique ado stripe part 17
 from django.http import HttpResponse
-from django.core.mail import _send_mail
+from django.core.mail import send_mail
 from django.template.loader import render_to_string
 from django.conf import settings
 
