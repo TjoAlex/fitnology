@@ -52,13 +52,9 @@
 </head>
 
 <body>
-    <div id="delivery-banner" class="row text-center">
-        <div class="col bg-black text-white">
-            <h4 class="logo-font my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>
-        </div>
-    </div>
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light">
+        <!--bg-light kan var issue för toggle/mobile-->
         <a href="{% url 'home' %}" class="nav-link main-logo-link">
             <img src="{{ MEDIA_URL }}fitnology-logo.png" class="logo" alt="Company logo" style="height: 140px;">
         </a>
@@ -76,7 +72,6 @@
                     aria-expanded="false">
                     <div class="text-center">
                         <div><i class="fas fa-user fa-lg"></i></div>
-                        <p class="my-0">My Account</p>
                     </div>
                 </a>
                 <div class="dropdown-menu border-0" aria-labelledby="user-options">
@@ -144,7 +139,7 @@
         $('.toast').toast('show');
     </script>
     {% endblock %}
-
+    {% include 'includes/footer.html' %}
 </body>
 
 </html>
