@@ -55,6 +55,30 @@ section.hero .continue i {
 
 /*
 * ==========================================================
+*     Intro section index page
+* ==========================================================
+*/
+
+
+.intro {
+    color: #111;
+}
+
+.h3-intro {
+    padding-top: 30px;
+}
+
+.text-big {
+    font-size: 1.4em;
+    font-weight: 300;
+    line-height: 1.8em;
+    color: #111;
+    padding-bottom: 30px;
+}
+
+
+/*
+* ==========================================================
 *     FEATURED POSTS SECTION
 * ==========================================================
 */
@@ -189,7 +213,7 @@ section.featured-posts .post-footer {
 }
 
 section {
-    padding: 80px 0;
+    padding: 30px 0;
     overflow-x: hidden;
 }
 
@@ -455,6 +479,7 @@ select option[value=""] {
     /* text-info */
 }
 
+
 /*
 * ==========================================================
 *     FOOTER
@@ -627,5 +652,3 @@ footer.main-footer .title::after {
     overflow-x: hidden;
     overflow-y: auto;
 }
-
-/* -------------------------------- Media Queries */
