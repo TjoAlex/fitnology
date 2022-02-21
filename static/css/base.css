@@ -297,13 +297,6 @@ section.divider {
     border-color: #0c343d;
 }
 
-/* Navigation bar */
-
-.navbar {
-    background: #fff;
-    height: 140px;
-}
-
 .navbar-light .navbar-nav .nav-link {
     color: #0c343d;
     font-weight: 600;
