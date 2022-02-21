@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<!--Hero Section-->
+<section style="background: url('/media/background4.jpg'); background-size: cover; background-position: center center"
+    class="hero">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <h1>Fitnology - Where Technology meets Fitness and Health</h1>
+                <h4><a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop
+                        Now</a></h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Contact Section-->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Contact Us</h2>
+                <p class="text-big">Have any questions? Wait no longer, send us a message and we will make sure to give
+                    you a reply.</p>
+            </div>
+            <div class="col-md-8">
+                <div class="form-holder">
+                    <form action="#">
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="password" class="form-control" id="name" placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Type Here..."
+                                rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
