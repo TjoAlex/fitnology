@@ -24,36 +24,22 @@
     </div>
 </section>
 
-<!--Contact Section-->
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <h2>Contact Us</h2>
-                <p class="text-big">Have any questions? Wait no longer, send us a message and we will make sure to give
-                    you a reply.</p>
-            </div>
-            <div class="col-md-8">
-                <div class="form-holder">
-                    <form action="#">
-                        <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="name">Full Name</label>
-                            <input type="password" class="form-control" id="name" placeholder="John Doe">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Type Here..."
-                                rows="3"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+<div class="container">
+    <div class="row">
+        <!-- Blog Entries Column -->
+        <div class="col-md-8 mt-3 left">
+            {% for post in post_list %}
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">{{ post.title }}</h2>
+                    <p class="card-text text-muted h6">{{ post.author }} | {{ post.created_on}} </p>
+                    <p class="card-text">{{post.content|slice:":200" }}</p>
+                    <a href="{% url 'post_detail' post.slug  %}" class="btn btn-primary">Read More &rarr;</a>
                 </div>
             </div>
+            {% endfor %}
         </div>
+        {% block sidebar %} {% include 'sidebar.html' %} {% endblock sidebar %}
     </div>
-</section>
+</div>
 {% endblock %}
