@@ -1,27 +1,9 @@
 <div class="container-sm">
-    <a href="#allproducts" class="btn btn-secondary">All Products</a>
-    <a href="#smartscale" class="btn btn-secondary">Smart Scale</a>
-    <a href="#smartwatch" class="btn btn-secondary">Smartwatch</a>
-    <a href="#smartmirror" class="btn btn-secondary">Smart mirror</a>
-    <a href="#smartbike" class="btn btn-secondary">Smart Bikes</a>
-    <a href="#allclothing" class="btn btn-secondary">All Clothing</a>
-    <a href="#shirts" class="btn btn-secondary">Shirts</a>
-    <a href="#trousers" class="btn btn-secondary">Trousers</a>
-    <a href="#hoddies" class="btn btn-secondary">Hoddies</a>
-    <a href="#equipment" class="btn btn-secondary">Equipment</a>
-    <a href="#events" class="btn btn-secondary">Events</a>
-    <!--Sort category-->
-    <div class="dropdown">
-        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Sort By
-        </a>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <a class="dropdown-item" href="{% url 'products' %}?sort=price&direction=asc">By Price</a>
-            <!--Sorting by highest to lowest-->
-            <a class="dropdown-item" href="{% url 'products' %}?sort=rating&direction=desc">By Rating</a>
-            <a class="dropdown-item" href="{% url 'products' %}?sort=category&direction=asc">By Category</a>
-            <a href="" class="dropdown-item">All Products</a>
-        </div>
-    </div>
+    <a href="{% url 'products' %}" class="btn btn-secondary">All Products</a>
+    <a href="{% url 'products' %}?category=smart_scales" class="btn btn-secondary">Smart Scale</a>
+    <a href="{% url 'products' %}?category=smartwatches" class="btn btn-secondary">Smartwatch</a>
+    <a href="{% url 'products' %}?category=interactive_mirrors" class="btn btn-secondary">Interactive Mirrors</a>
+    <a href="{% url 'products' %}?category=exercise_machines" class="btn btn-secondary">Exercise Machines</a>
+    <a href="{% url 'products' %}?category=clothing" class="btn btn-secondary">Clothing</a>
+    <a href="{% url 'products' %}?category=equipment" class="btn btn-secondary">Equipment</a>
 </div>

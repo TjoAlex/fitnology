@@ -3,9 +3,6 @@
         <li class="nav-item">
             <a class="nav-link" href="{% url 'home' %}">Home</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="{% url 'products' %}">Products</a>
-        </li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
@@ -14,7 +11,23 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="{% url 'blog' %}">Blogg</a>
                 <a class="dropdown-item" href="#">Membership</a>
-                <a class="dropdown-item" href="#">Events</a>
+                <a class="dropdown-item" href="#">For Companies</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Products
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a href="{% url 'products' %}" class="dropdown-item">All products</a>
+                <a href="{% url 'products' %}?category=smartwatches" class="dropdown-item">Smartwatches</a>
+                <a href="{% url 'products' %}?category=smart_scales" class="dropdown-item">Smart Scales</a>
+                <a href="{% url 'products' %}?category=interactive_mirrors" class="dropdown-item">Interactive
+                    Mirrors</a>
+                <a href="{% url 'products' %}?category=clothing" class="dropdown-item">Clothing</a>
+                <a href="{% url 'products' %}?category=equipment" class="dropdown-item">Equipment</a>
+
             </div>
         </li>
     </ul>
