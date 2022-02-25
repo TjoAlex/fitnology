@@ -475,3 +475,20 @@ select option[value=""] {
     color: #0c343d;
     /* text-info */
 }
+
+/*
+* ==========================================================
+*     SEARCH SECTION
+* ==========================================================
+*/
+
+.container-search {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-search {
+    width: 15em;
+}
