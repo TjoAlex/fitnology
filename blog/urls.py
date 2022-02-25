@@ -5,8 +5,10 @@ from . import views
 
 urlpatterns = [
     path('blog/', views.PostList.as_view(), name='blog'),
-    # path('<slug:slug>/', views.PostDetail.as_view(), name='post_detail'),
-    # when i remove the hastag above the blog works but the admin add post does not?
+    path('addpost/', views.add_post, name='addpost'),
     path('<int:post_id>/', views.PostDetail, name='postdetail'),
-    path('add_post/', views.add_post, name='add_post'),
+    path('editpost/<int:id>/', views.edit_post, name='editpost'),
+    path('deletepost/<int:id>/', views.delete_post, name='deletepost'),
+    path('<slug:slug>/', views.PostDetail.as_view(), name='post_detail'),
+
 ]

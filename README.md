@@ -90,7 +90,7 @@ The website follows UX and UI design as well as CRUD to create the best experien
 - __Cart Page__
   - Here the user gets an overview of everything they added to their cart, each individual product showing the name, quantity, price, size if any, SKU and image. 
   - On the right bottom a cart total amount is shown for every product, the delivery cost and total cost for everything.
-  - Underneath the quantity the user has two options to choose from, update and or delete. If the user deletes a product a new message appears telling the product was successfully deleted from your bag. If you press the update button and you choose to add more quantity of that product you will get a new message telling your product was successfully updated and a new total price will be shown. 
+  - Underneath the quantity the user has two options to choose from,  update and or delete. If the user deletes a product a new message appears telling the product was successfully deleted from your bag. If you press the update button and you choose to add more quantity of that product you will get a new message telling your product was successfully updated and a new total price will be shown. 
   - Lastly two buttons are provided on the bottom right side of the page right above the footer. One leading back to the all products page and one leading to the checkout page. 
 
   ![Cart Page](media...)
