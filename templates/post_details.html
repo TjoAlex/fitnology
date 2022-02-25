@@ -37,45 +37,6 @@
                 {% endif %}
             </div>
         </div>
-
-        <!--comment section-->
-        <div class="col-md-8  mb-4  mt-3 ">
-            <!--Add all comments-->
-            {% with comments.count as total_comments %}
-            <h2>{{ total_comments }} comments</h2>
-            <p>
-                {% endwith %} {% for comment in comments %}
-            </p>
-
-            {% endfor %}
-        </div>
-        <div class="col-md-8 card mb-4  mt-3 ">
-            <div class="card-body">
-                {% if not post.comments.all %}
-                <div class="alert alert-success" role="alert">
-                    No comments Yet.. <a href="#">Add One</a>
-                    {% else %}
-                    {% for comment in post.comments.all %}
-                    <strong>
-                        {{ comment.name }} -
-                        {{ comment.date_added }}
-                    </strong>
-                    <br />
-                    {{ comment.body }}
-                    <br /><br />
-                    <hr>
-                    <!--For to add comment-->
-                    {% endfor %}
-                    {% endif %}
-                    <form method="post" style="margin-top: 1.3em;">
-                        {{ comment_form | crispy }}
-                        {% csrf_token %}
-                        <button type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" href="">Add
-                            Comment</button>
-                    </form>
-                </div>
-            </div>
-        </div>
         <div class="col-md-8 mb-4 mt-3 ">
             <!--Continue to blog button-->
             <a href="{% url 'blog' %}" class="btn btn-outline-black rounded-0 mt-5">

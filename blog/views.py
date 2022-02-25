@@ -20,12 +20,6 @@ class PostDetail(generic.DetailView):
     template_name = 'post_details.html'
 
 
-# class AddCommentView(generic.CreateView):
-    # model = Comment
-    # template_name = 'blog/add_comment.html'
-    # fields = __all__
-
-
 @login_required
 def add_post(request):
     """ Add a post to the blog """

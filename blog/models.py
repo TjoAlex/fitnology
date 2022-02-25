@@ -24,13 +24,3 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 
-
-class Comment(models.Model):
-    post = models.ForeignKey(Post, related_name='comments', on_delete=models.CASCADE)
-    name = models.CharField(max_length=250)
-    body = models.TextField()
-    date_added =  models.DateTimeField(auto_now_add=True)
-
-    def __str__(self):
-        # return name of blog post and name of user who comment
-        return '%s - %s' % (self.post.title, self.name)

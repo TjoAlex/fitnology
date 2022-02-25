@@ -90,10 +90,6 @@ section.featured-posts .row:nth-of-type(odd) .text {
     background: #fafafa;
 }
 
-section.featured-posts .row:last-of-type {
-    margin-bottom: 0;
-}
-
 section.featured-posts p {
     font-weight: 400;
     color: #777;
@@ -122,43 +118,6 @@ section.featured-posts h2:hover {
     color: #555;
 }
 
-section.featured-posts .avatar {
-    max-width: 40px;
-    min-width: 40px;
-    height: 40px;
-    overflow: hidden;
-    border-radius: 50%;
-    margin-right: 10px;
-}
-
-section.featured-posts .title,
-section.featured-posts .date,
-section.featured-posts .comments {
-    font-size: 0.8em;
-    font-weight: 400;
-    color: #999;
-}
-
-section.featured-posts .title i,
-section.featured-posts .date i,
-section.featured-posts .comments i {
-    margin-right: 5px;
-}
-
-section.featured-posts .title::after,
-section.featured-posts .date::after,
-section.featured-posts .comments::after {
-    content: '|';
-    display: inline-block;
-    margin: 0 7px;
-    font-size: 0.9em;
-    color: #ccc;
-}
-
-section.featured-posts .comments::after {
-    display: none;
-}
-
 section.featured-posts .image {
     max-height: 200px;
     width: auto;
@@ -174,52 +133,11 @@ section.featured-posts .post-header {
     margin-bottom: 10px;
 }
 
-section.featured-posts .post-footer {
-    margin-top: 30px;
-}
-
-/* Featured Posts Section Media Query ------------------------------------- */
-@media (max-width: 991px) {
-    section.featured-posts .image {
-        -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-        order: 1;
-        max-height: 300px;
-        min-height: auto !important;
-    }
-
-    section.featured-posts .image img {
-        width: 100%;
-        height: auto !important;
-    }
-
-    section.featured-posts .text {
-        -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-        order: 2;
-    }
-}
-
-@media (max-width: 575px) {
-    section.featured-posts .post-footer {
-        font-size: 0.9em;
-    }
-}
-
-@media (max-width: 350px) {
-    section.featured-posts .text-inner {
-        padding: 15px;
-    }
-
-    section.featured-posts .post-footer {
-        font-size: 0.75em;
-    }
-}
-
 section {
     padding: 30px 0;
     overflow-x: hidden;
 }
+
 
 /*
 * ==========================================================
