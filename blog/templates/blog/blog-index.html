@@ -43,7 +43,11 @@
                     <h2 class="card-title">{{ post.title }}</h2>
                     <p class="card-text text-muted h6">{{ post.author }} | {{ post.created_on}} </p>
                     <p class="card-text">{{post.content|slice:":200" }}</p>
+                    {% if request.user.is_superuser %}
                     <a href="{% url 'post_detail' post.slug  %}" class="btn btn-primary">Read More &rarr;</a>
+                    {% else %}
+                    <p>Become a member to read more<a href="{% url 'account_signup' %}"> Register</a></p>
+                    {% endif %}
                 </div>
             </div>
             {% endfor %}
