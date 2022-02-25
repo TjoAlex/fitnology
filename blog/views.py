@@ -1,5 +1,5 @@
 """Paig view for blog and its features"""
-from django.shortcuts import render, redirect, reverse
+from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.views import generic
@@ -52,12 +52,34 @@ def add_post(request):
     return render(request, template, context)
 
 
-# Edit Post
-def edit_post(request, id):
+# Edit post
+@login_required
+def edit_post(request, post_id):
+    """ Edit a post in the store blog"""
     if not request.user.is_superuser:
-        return render(request, 'blog/edit_post.html')
-    else:
+        messages.error(request, 'Sorry only store owners can do that.')
         return redirect(reverse('blog'))
+
+    post = get_object_or_404(Post, pk=post_id)
+    if request.method == 'POST':
+        form = PostForm(request.POST, request.FILES, instance=post)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Successfully updated post!')
+            return redirect(reverse('blog'))
+        else:
+            messages.error(request, 'Failed to update post. Please ensure the form is valid.')
+    else:
+        form = PostForm(instance=post)
+        messages.info(request, f'You are editing {post.title}')
+
+    template = 'blog/edit_post.html'
+    context = {
+        'form': form,
+        'post': post,
+    }
+
+    return render(request, template, context)
 
 
 # Delete Post
