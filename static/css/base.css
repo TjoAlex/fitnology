@@ -31,6 +31,7 @@ section.hero h1 {
     color: #0c343d;
 }
 
+
 section.hero .continue {
     position: absolute;
     bottom: 30px;
@@ -44,6 +45,11 @@ section.hero .continue {
 
 section.hero .continue i {
     margin-right: 5px;
+}
+
+/* For Blog Hero Section ------------------------------------- */
+section.hero.blog h1 {
+    color: #ffff;
 }
 
 /* Hero Section Media Query ------------------------------------- */
@@ -480,6 +486,9 @@ footer.main-footer {
     background: #0c343d;
     padding: 100px 0 0;
     color: #fff;
+    /*position: fixed;*/
+    width: 100%;
+    bottom: 0;
 }
 
 footer.main-footer .contact-details p {
