@@ -88,7 +88,7 @@
                     {% endif %}
                 </div>
             </li>
-            <!--Cart dropdown menu-->
+            <!--dropdown menu-->
             <li class="list-inline-item">
                 <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
                     href="{% url 'view_bag' %}">
@@ -127,12 +127,15 @@
     <!--Content goes here-->
     {% endblock %}
 
+    <!--Footer-->
+    {% include 'includes/footer.html' %}
+
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');
     </script>
     {% endblock %}
-    {% include 'includes/footer.html' %}
+
 </body>
 
 </html>
