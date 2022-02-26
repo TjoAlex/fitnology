@@ -1,15 +1,18 @@
-from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404
+from django.shortcuts import (
+     render, redirect, reverse, HttpResponse, get_object_or_404
+)
 from django.contrib import messages
 
 from products.models import Product
-
-# Create your views here.
 
 
 def view_bag(request):
     """ A view that renders the bag contents page """
 
     return render(request, 'bag/bag.html')
+
+# Add a product/products to bag
+# code taken from Boutique Ado project and adapted to this project
 
 
 def add_to_bag(request, item_id):
@@ -46,6 +49,9 @@ def add_to_bag(request, item_id):
     request.session['bag'] = bag
     return redirect(redirect_url)
     
+# adjust item in gym bag
+# code taken from Boutique Ado project and adapted to this project
+
 
 def adjust_bag(request, item_id):
     """Adjust the quantity of the specified product to the specified amount"""
@@ -76,6 +82,9 @@ def adjust_bag(request, item_id):
 
     request.session['bag'] = bag
     return redirect(reverse('view_bag'))
+
+# Remove item from shopping bag
+# code taken from Boutique Ado project and adapted to this project
 
 
 def remove_from_bag(request, item_id):

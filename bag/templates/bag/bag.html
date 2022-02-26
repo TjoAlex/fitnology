@@ -3,6 +3,7 @@
 {% load bag_tools %}
 
 {% block page_header %}
+<!--empty header container-->
 <div class="container header-container">
     <div class="row">
         <div class="col"></div>
@@ -11,14 +12,17 @@
 {% endblock %}
 
 {% block content %}
+<!--white background overlay div-->
 <div class="overlay"></div>
 <div class="container mb-2">
+    <!--Top header of bag content page-->
     <div class="row">
         <div class="col">
             <h2 class="logo-font mb-4">Your Shopping Bag</h2>
             <hr>
         </div>
     </div>
+    <!--bag content table for ease of display table taken from Boutique Ado project and adapated for this project-->
     <div class="row">
         <div class="col">
             {%if bag_items %}
@@ -33,7 +37,7 @@
                             <th scope="col">Subtotal</th>
                         </tr>
                     </thead>
-
+                    <!--Shopping bag content for ease of display table used. Table taken from Boutique Ado project and adapated for this project-->
                     {% for item in bag_items %}
                     <tr>
                         <td class="p-3 w-25">
@@ -56,6 +60,7 @@
                             <p class="my-0">${{ item.product.price }}</p>
                         </td>
                         <td class="py-3 w-25">
+                            <!--update bag content input taken from Boutique Ado project and adapated for this project-->
                             <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
                                 {% csrf_token %}
                                 <div class="form-group">
@@ -85,6 +90,7 @@
                                     </div>
                                 </div>
                             </form>
+                            <!--links to allow update of product quantity. code taken from Boutique Ado project and adapted to this project-->
                             <a class="update-link text-info"><small>Update</small></a>
                             <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"
                                 data-product_size="{{ item.size }}"><small>Remove</small></a>
@@ -94,6 +100,7 @@
                         </td>
                     </tr>
                     {% endfor %}
+                    <!--shopping bag grand total code taken from Boutique Ado project and adapted to this project-->
                     <tr>
                         <td colspan="5" class="pt-5 text-right">
                             <!-- Show user summary of cost -->
@@ -129,7 +136,7 @@
                 </table>
             </div>
             {% else %}
-            <!--If bag is empty-->
+            <!--Notice in case bag becomes empty. code taken from Boutique Ado project and adapted to this project-->
             <p class="lead mb-5">Your bag is empty.</p>
             <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
                 <span class="icon">
@@ -142,7 +149,7 @@
     </div>
 </div>
 {% endblock %}
-
+<!--Update and Remove Javascript with link to product apps. Code taken from Boutique ado project and adapted-->
 {% block postloadjs %}
 {{ block.super }}
 {% include 'products/includes/quantity_input_script.html' %}
@@ -159,7 +166,7 @@
         var csrfToken = "{{ csrf_token }}";
         var itemId = $(this).attr('id').split('remove_')[1];
         var size = $(this).data('product_size');
-        var url = `/bag/remove/${itemId}/`; //Removed /bag/?
+        var url = `/bag/remove/${itemId}/`;
         var data = {
             'csrfmiddlewaretoken': csrfToken,
             'product_size': size

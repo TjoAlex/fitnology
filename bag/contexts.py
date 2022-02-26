@@ -4,6 +4,10 @@ from django.conf import settings
 from django.shortcuts import get_object_or_404
 from products.models import Product
 
+# logic for adding content to bag
+# inspired by Boutique ado project and adapted for this project
+# calculating price
+
 
 def bag_contents(request):
     """For bag items"""

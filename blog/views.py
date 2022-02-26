@@ -7,17 +7,23 @@ from django.views import generic
 from .forms import PostForm
 from .models import Post
 
+# Inspired by Codemy.com & Boutique Ado
+
 
 class PostList(generic.ListView):
     """Display all posts on blog filtered by created last"""
     queryset = Post.objects.filter(status=1).order_by('-created_on')
     template_name = 'blog/blog-index.html'
 
+# Single Post
+
 
 class PostDetail(generic.DetailView):
     """Single post view"""
     model = Post
     template_name = 'post_details.html'
+
+# Add Post
 
 
 @login_required

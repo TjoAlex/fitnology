@@ -3,6 +3,8 @@ from django.urls import path
 from . import views
 from .webhooks import webhook
 
+# order url path
+
 urlpatterns = [
     path('', views.checkout, name='checkout'),
     path('checkout_success/<order_number>',

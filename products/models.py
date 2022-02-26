@@ -1,5 +1,7 @@
 from django.db import models
 
+# Product Models Category and Product.
+
 
 class Category(models.Model):
 

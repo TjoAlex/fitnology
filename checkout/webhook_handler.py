@@ -11,6 +11,9 @@ from profiles.models import UserProfile
 import json
 import time
 
+# taken from Boutique Ado project and stripe documents
+
+
 class StripeWH_Handler:
     """Handle Stripe webhooks"""
 

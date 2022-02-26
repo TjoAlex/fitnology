@@ -1,6 +1,7 @@
 from django import forms
 from .models import Product, Category
 
+# CI code from boutique ado project Full Stack Frameworks
 
 class ProductForm(forms.ModelForm):
 

@@ -1,6 +1,8 @@
+"""Model for blog"""
 from django.db import models
 from django.contrib.auth.models import User
 
+# Post Models insipred by Boutique Ado
 
 STATUS = ((0,"Draft"), (1,"Publish"))
 

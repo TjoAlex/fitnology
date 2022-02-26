@@ -7,6 +7,11 @@ from django_countries.fields import CountryField
 
 
 class UserProfile(models.Model):
+
+# inspired by boutique ado mini project
+# adapted for this project
+
+
     """
     A user profile model for maintaining default
     delivery information and order history

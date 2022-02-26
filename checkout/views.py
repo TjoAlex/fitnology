@@ -16,6 +16,8 @@ from bag.contexts import bag_contents
 import stripe
 import json
 
+# order checkout cached information
+
 
 @require_POST 
 def cache_checkout_data(request):
@@ -35,6 +37,7 @@ def cache_checkout_data(request):
         return HttpResponse(content=e, status=400)
 
 
+# order checkout logic including stripe integration
 def checkout(request):
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
@@ -106,7 +109,7 @@ def checkout(request):
             amount=stripe_total,
             currency=settings.STRIPE_CURRENCY,
         )
-
+        # Try to prefill the form with user info from their profile
         if request.user.is_authenticated:
             try:
                 profile = UserProfile.objects.get(user=request.user)
@@ -142,6 +145,7 @@ def checkout(request):
     return render(request, template, context)
 
 
+# order successful checkout logic
 def checkout_success(request, order_number):
     """
     Handle successful checkouts
