@@ -1,0 +1,1 @@
+web: gunicorn fitnology.wsgi:application

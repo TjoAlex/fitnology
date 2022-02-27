@@ -59,6 +59,18 @@ This project is a shopping system where users and/or guests can purchase technol
 * Frequent User Goals
     * As a frequent user of this application, I want the same experience as a returning visitor;
     * As the owner of Fitnology I want to easily create, update, add deals, blog posts or products, and/or remove product items or blog posts from the product and/or blog. 
+## Design 
+
+### Color Schema 
+   - The main colors used in this site are black(#111), white(#ffff), grey(#777), and teal(#0c343d).
+   - Main text color is Black #111
+   - Intro sections for home page have text color #777
+   - Buttons, logo and navbar text carries this teal color #0c343d, for some contrast and theam color.
+
+### Typography
+   - For this website I decided to use the Dosis font family. 
+
+## Wireframes
 
 ## Features
 The website follows UX and UI design as well as CRUD to create the best experience for the user, below shows what was created to contribute to this.
@@ -152,8 +164,6 @@ The website follows UX and UI design as well as CRUD to create the best experien
 
    - Add a for companies page, promoting business to reach out to the website to get their products sold on this platform. 
 
-
-## Design 
 
 ## Technologies Used
 
