@@ -11,7 +11,7 @@
 
 {% block content %}
 <!--Hero Section-->
-<section style="background: url='{{ MEDIA_URL }}/spara.jpg'; background-size: cover; background-position: center center"
+<section style="background: url({{ MEDIA_URL }}spara.jpg); background-size: cover; background-position: center center"
     class="hero">
     <div class="container">
         <div class="row">
@@ -63,7 +63,7 @@
             </div>
         </div>
         <!--Divider One-->
-        <section style="background: url(/media/post1.jpg); background-size: cover;" class="divider">
+        <section style="background: url({{MEDIA_URL}}post1.jpg); background-size: cover;" class="divider">
             <div class="container">
                 <div class="row">
                     <div class="col-md-7">
@@ -108,7 +108,8 @@
             </div>
         </div>
         <!--Divider Two-->
-        <section style="background: url({{MEDIA_URL}}/post2.jpg); background-size: cover; background-position: center bottom"
+        <section
+            style="background: url({{MEDIA_URL}}post2.jpg); background-size: cover; background-position: center bottom"
             class="divider">
             <div class="container">
                 <div class="row">
