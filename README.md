@@ -368,6 +368,7 @@ USE_AWS | `True`
 - [Boutique Ado](https://github.com/Code-Institute-Org/boutique_ado_v1) - The Code institute Boutique Ado demonstration has been a huge inspirational source for me in this project. This was what was first introducing me to django and this was the best guide way for me to follow to create the fitnology website. Any code copied from Boutique Ado has been mentioned in the project code itself.
 - [Codemy.com](https://www.youtube.com/watch?v=B40bteAMM_M&list=PLCC34OHNcOtr025c1kHSPrnP18YPB-NFi) - These are the youtube videos that helped me understand how I could build a blog for the website. Any code copied from Codemy.com has been mentioned in the project code itself.
 - Other helpful websites was [w3schools.com](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/)
+- For my Readme.md file I looked a lot at [github.com](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) library as well as on the [Code Institute](https://github.com/Code-Institute-Solutions/readme-template) template. 
 
 ### Content 
 
