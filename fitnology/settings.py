@@ -54,7 +54,7 @@ INSTALLED_APPS = [
     'profiles',
     'blog',
 
-    #Other
+    # Other
     'crispy_forms',
     'storages',
 ]
@@ -84,12 +84,12 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request', # required by allauth
+                'django.template.context_processors.request',  # required by allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'django.contrib.messages.context_processors.messages', # to access no image file in media folder
-                'bag.contexts.bag_contents', # to access the bag content
-                'django.template.context_processors.media', # Media context processor to allow images to show on screen
+                'django.contrib.messages.context_processors.messages',  # to access no image file in media folder
+                'bag.contexts.bag_contents',  # to access the bag content
+                'django.template.context_processors.media',  # Media context processor to allow images to show on screen
             ],
             'builtins': [
                 'crispy_forms.templatetags.crispy_forms_tags',

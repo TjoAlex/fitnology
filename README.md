@@ -3,9 +3,9 @@
 This project is made for the store owner(admin), potential businesses wanting to sell products and customers of the store. It shall be used by users who want to know more about technology products related to fitness and users who want one single place that provides a focused selection of technology products related to fitness. This is designed for business and informative purposes for the owner who wants to increase customers and provide a bigger selection of products as well as provide the users a good understanding of how these products can help one improve their health by reading the blog members of the website have access to.
 
 ## Showcase 
-![showcase-screenshot](media...)
+![Landing Page](media/landing.png)
 
-[view the live project here.](#http)<br>
+[view the live project here.](https://fitnology.herokuapp.com/)<br>
 
 ## Navigation
 
@@ -66,7 +66,6 @@ The central targeted audience for Fitnology are:
 ### Icons
 + In order to keep an uncluttered site only a few icons were utilized when needed to keep things simple for the user. 
 ### Color Schema 
-![](media/readme-images/.png)
    - The main colors used in this site are black(#111), white(#ffff), gray(#777), and teal(#0c343d).
    - Main text color is Black #111
    - Intro sections for home page have text color gray #777
@@ -85,9 +84,11 @@ The central targeted audience for Fitnology are:
 + [Checkout](media/readme-images/.png)
 + [Checkout Success](media/readme-images/.png)
 + [profile](media/readme-images/.png)
-## Database Shema
+
+
 ## Features
 The website follows UX and UI design as well as CRUD to create the best experience for the user, below shows what was created to contribute to this.
+
 ### Existing Features
 
 - __Navigation Bar__
@@ -96,22 +97,26 @@ The website follows UX and UI design as well as CRUD to create the best experien
   - The Navigation Bar continues to be identical on all pages to remain as easy navigation.
   - Giving the user easy navigation throughout the website, moving from page to page. It is responsive and functional as well as simple and aesthetically pleasing on all devices.   
  
-![Nav Bar](media...)
+ ![Nav Bar](media/nav.png)
 
 - __Landing Page Image, Heading, Button and introduction section__
   - Once landing on the home page there is an image holding a heading and button to give the user a first glance at what this website is and give them the chance to directly jump to the all products page.
+
+  ![Landing Page Image](media/landing.png)
+
+- __Introduction Section__
   - It continues to hold three sections one introducing the user to what is about to come, sendond is what the company is, third what the company offers and fourth how everything works.
   - Each introduction section is divided with an image holding a link to the blog page and the last image holding a link to the register page.
 
-  ![Landing Page Image](media...)
+  ![Introduction Section](media/intro.png)
 
- - __Navbar Cart__
-  - On the Navbar a cart is provided, this cart once a product is added to it turns to the color blue, letting the user know when something is added to it. 
+ - __Nav Bar Bag__
+  - On the Navbar a bag is provided, once a product is added it turns to the color blue in the navbar, letting the user know when something is added to it. 
   - Once you press the add to cart button, a smaller screen pops up showing a success message, the image of the product you just added, quantity, size if any, the total price for everything in your cart and go to the secure checkout button.
   - If the user presses the cart they land on the cart page.
-  - If the user presses the go to secure checkout page they land on the checkout page.
+  - If the user presses the go to secure checkout page they land on the bag page.
 
-  ![Nav Bar Cart](media...)
+  ![Nav Bar bag](media/bag-message.png)
 
 - __Products Page__
   - The user, if clicked on all products page, will here find everything the website has to offer in a row of four and down.
@@ -120,14 +125,14 @@ The website follows UX and UI design as well as CRUD to create the best experien
   - Each Product section holds the Name, price, category, size (if any), and ratings(if any).
   - If the user is one of the logged in owners they get underneath the category name of the product an edit or delete button leading to the edit product page, or giving the user "product deleted" message if they choose to delete it. 
 
-  ![Products Page](media...)
+  ![Products Page](media/products.png)
 
 - __Single Product Page__
   - If the user chooses to click on a product they come to the single products page. This page shows a bigger image of the product itself, holding the product name, price, category, description, size and ratings(if any).
   - Underneath the description there is a quantity option that the user adds more quantity by pressing the plus button or less by pressing the minus button. The minus button only lets the user go to one then one cant press less more. 
   - Lastly Two buttons are provided, one leading back to the products page and second putting the product in the cart leaving the user with a successfully added product message from the bag. 
 
-  [Single Products Page](media...)
+  [Single Products Page](media/single-product.png)
 
 - __Add Products Page__ 
   - If the owner of the stor press the profile icon and then product management they land on a page holding a form.
@@ -136,7 +141,7 @@ The website follows UX and UI design as well as CRUD to create the best experien
   - If the user pressed the edit button they landed on the same page, yet then everything is already filled in an the user need only to fix what was needed to fix.
   - This form looks mostly the same for the blog management and blog edit button. Only difference is the information required.
 
-  [Add Products Page](media...)
+  [Add Products Page](media/productmanag.png)
 
 - __Bag Page__
   - Here if clicked on the bag icon the user gets an overview of everything they added to their cart, each individual product showing the name, quantity, price, size if any, SKU and image. 
@@ -144,26 +149,26 @@ The website follows UX and UI design as well as CRUD to create the best experien
   - Underneath the quantity the user has two options to choose from,  update and or delete. If the user deletes a product a new message appears telling the product was successfully deleted from your bag. If you press the update button and you choose to add more quantity of that product you will get a new message telling your product was successfully updated and a new total price will be shown. 
   - Lastly two buttons are provided on the bottom right side of the page. One leading back to the all products page and one leading to the checkout page. 
 
-  [Cart Page](media...)
+  [Cart Page](media/bag2.png)
 
 - __Checkout Page__
   - On the Checkout page the user is provided with a form, A form required for the user to fill in to make sure they can purchase their products.
   - If the form is incorrect when the user presses the secure payment an error message from the bag will appear telling the user to look at the form and make sure it is correct.
   - This page also shows a last overview of the products the user chooses to purchase containing all the product details as well.
 
-[Checkout Page](media...)
+[Checkout Page](media/checkout.png)
 
 - __Profile Page__
   - In the profile page the user finds their full order history with all information attached regarding their purchase.
 
-[Profile Page](media...)
+[Profile Page](media/orderprofile.png)
 
 - __Blog__
   - When the user goes to the blog they land on a page holding a new header with a small introduction telling them where they are.
   - Under this image all the blog posts are presented one by one. This with a heading, then image and lastly a short part from the blog text itself.
   - Under the line of text for the blog post a button is provided for the user if logged in to read more and if not logged in to register.
 
-[Blog](media...)
+[Blog](media/blog.jpg)
 
 - __Single Blog Post__ 
   - If the user is a logged in member and press the button read more they land on the single blog post page.
@@ -171,25 +176,25 @@ The website follows UX and UI design as well as CRUD to create the best experien
   - If the user is an owner for the website it will also appear edit and delete buttons. These work exactly the same as for the products edit or delete buttons.
   - Lastly the user finds a button leading back to the all blog posts page.
 
-[Single Blog Post](media...)
+[Single Blog Post](media/singleblogpage.png)
 
 - __Sign In__
   - The user is not already signed in can click on the profile icon and find the sign in page.
   - This contains a form for the user to fill in holding the username and password.
   - Once all information is in the form the user can press the signin button and land on the homepage again.
 
-  [Sign In](media...)
+  [Sign In](media/signin.png)
 
 - __Sign Out__ 
  - Once logged in users can press the profile icon in the navigation and find the logout option. If that is pressed the user lands on a page confirming they have been logged out.
 
- [Sign Out](media...)
+ [Sign Out](media/signout.png)
 
 - __Register__ 
   - By choosing the register option either from the navigation bar, blog link or home page link the user lands on a page holding a form.
   - This form shows the user everything that is necessary to fill in to become a member of the website.
 
-  [Register](media...)
+  [Register](media/register.png)
 
 ### Future Features 
 
