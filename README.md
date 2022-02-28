@@ -7,16 +7,6 @@ This project is made for the store owner(admin), potential businesses wanting to
 
 [view the live project here.](https://fitnology.herokuapp.com/)<br>
 
-## Navigation
-
-* [UX](#ux)
-* [Features](#features)
-* [Information Architecture](#information-architecture)
-* [Technologies Used](#technologies-used)
-* [Testing](#testing)
-* [Deployment](#deployment)
-* [Credits](#credits)
-
 ## UX
 ### Goals 
 #### Visitor Goals 
@@ -75,16 +65,10 @@ The central targeted audience for Fitnology are:
 + The overall style was to keep everything simple, clean and fresh letting things as the products or blog posts be the main part making the website get some color and visual appeal. 
 ## Wireframes
 #### These wireframes were made using [Balsamiq](https://balsamiq.com/) during the Scope Plane part of the design and planning process for this project.
-+ [Home](media/readme-images/.png)
-+ [Products](media/readme-images/.png)
-+ [Product Details](media/readme-images/.png)
-+ [Blog](media/readme-images/.png)
-+ [Blog Detail Post](media/readme-images/.png)
-+ [Shopping Bag](media/readme-images/.png)
-+ [Checkout](media/readme-images/.png)
-+ [Checkout Success](media/readme-images/.png)
-+ [profile](media/readme-images/.png)
-
++ [Home](media/wireframes/wireframblog.png)
++ [Products](media/wireframes/match.png)
++ [Product Details](media/wireframes/singleproductwireframe.png)
++ [Blog](media/wireframes/wireframeblog.png)
 
 ## Features
 The website follows UX and UI design as well as CRUD to create the best experience for the user, below shows what was created to contribute to this.
