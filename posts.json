@@ -1,0 +1,57 @@
+[{
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+        "title": "Advantages of working out at home",
+        "slug": "advantages-ofworking-out-at-home",
+        "author": 1,
+        "updated_on": "2022-02-25T14:34:34.536Z",
+        "content": "Going to the gym can be tedious. You have to get dressed, drive to the gym, and change into your workout clothes. Then, after working out, you have to do it all again in the opposite order. All of this can take more time than the actual workout. Add to this the fact that membership costs are more and more expensive because of the amount of activities offered. But why pay for group classes, a pool, or something else when you only want to spend two to four hours a week lifting weights?\r\nAt a gym, you can exercise only when the gym is open, and you can be limited by crowds. Working out at home gives you flexibility. You can work out in the morning, in the evening, or on alternate mornings and evenings to make the best use of your time.\r\nMany gyms do not allow people under the age of 16 to use their facilities. This does not mean that people cannot start lifting weights before the age of 16. Weight training will not stunt your growth! On the contrary: The earlier you start, the greater the benefits. In this case, the only solution is to work out at home.\r\nAt home, no one will disturb you while you are exercising in order to discuss the weather or to tell you that you are not exercising the right way. You will be able to remain focused and have a faster, more productive workout.\r\nIn a gym, your resting time is largely determined by other gym members. Your choice of exercises or equipment depends on what is available when you are working out. All of this rarely fits with the program you have set to meet your objectives. Circuit training, which is indispensable for athletes' weight training, is next to impossible in a gym. Working out at home grants you this freedom.",
+        "created_on": "2022-02-21T18:39:30.400Z",
+        "image_url": null,
+        "image": "background2.png",
+        "status": 1
+    }
+}, {
+    "model": "blog.post",
+    "pk": 6,
+    "fields": {
+        "title": "The importance of living a heart-healthy lifestyle",
+        "slug": "the-importance-of-living-a-heart-healthy-lifestyle",
+        "author": 1,
+        "updated_on": "2022-02-25T14:18:51.247Z",
+        "content": "Our hearts work beat by beat, second by second for 24 hours a day, never resting. Over the average lifetime, our hearts beats about 2.5 billion times. Knowing that it’s one of the most vital organs keeping us alive, it’s important to treat it like the precious commodity it is.\r\n\r\nThe number one cause of death among women and men, heart disease claims approximately one million lives per year. Heart disease conditions emerge when plaque, which is made of fat, cholesterol, calcium and other substances in the blood, builds up inside the coronary arteries which supply oxygen-rich blood to the heart muscles. When plaque builds up, it restricts blood flow to the heart’s chambers, which can lead to heart attack, sudden cardiac death and stroke.\r\n\r\nWhile the statistics are eye-opening, the good news is that simple lifestyle changes can help you avoid, or even slow down, heart-related problems. Making positive changes in one of the following seven areas can have one of the biggest impacts on your heart health. They include: losing weight/maintaining a healthy weight, eating healthy, staying active, managing blood pressure, reducing blood sugar, quitting smoking and controlling cholesterol.\r\n\r\nWhen done alone or combined, making positive changes in any of above seven areas can make a drastic difference in your health.\r\n\r\nThe more you know about your health the more power you have to stay healthy. High cholesterol and high blood pressure can damage your blood vessels and heart. See your healthcare provider at least once per year for regular health screenings that will tell test your blood pressure, cholesterol levels and blood sugar numbers. To find out if you are at risk for heart disease or diabetes, take the Know More Heart Health assessments at Mankato-clinic.com/risk-assessments.\r\n\r\nIn addition to incorporating more healthy habits in to your life, eat a heart-healthy diet rich in fruits, vegetables and whole grains to help protect your heart. Aim to eat beans, while minimizing consumption of dairy products, and meats. Avoid too much salt and sugars in your diet. Because fats can have a negative impact on your LDL or “bad” cholesterol, try to avoid saturated fats and trans fats.\r\n\r\nBy losing weight or maintaining a healthy weight, you significantly reduce your risk of diabetes, high cholesterol and high blood pressure.\r\n\r\nIt can be hard to break bad habits like eating better or not getting the recommended 30 minutes a day of moderate exercise. In fact, it takes 60-90 days to create a new habit. Learning simple tips to kick your bad habits and replace them with heart-healthy habits can be as easy as following these four steps:\r\n\r\nBreak a bigger goal into smaller, short-term goals: Whether you want to decrease your sugar consumption or sleep seven to eight hours a night because you know it’s important for your heart, don’t do it cold turkey. By easing yourself in to your new, healthier routine, you will see the benefits and feel more motivated toward your longer-term goal.\r\nConfide in someone you trust: Be it a spouse, sibling, friend or coworker, confiding in someone you trust will help you reach your goals. Having a confidant while making lifestyle changes will help you remain accountable for your actions\r\nMake small exercise changes: Start your workouts with low intensity by going slow, working up your stamina and building muscle and flexibility. By not starting out too aggressively, you’re more likely to stick with your program until you reach your end-goal.\r\nUnderstanding the risk factors and ailments associated with heart disease is an important step to take to prevent yourself, or your loved ones, from becoming a statistic of the disease. One of the most important things to remember is that a healthy lifestyle, especially when started at a young age, is proven to go a long way to prevent heart disease.",
+        "created_on": "2022-02-25T14:18:51.247Z",
+        "image_url": null,
+        "image": "background4_UWlrGSQ.jpg",
+        "status": 1
+    }
+}, {
+    "model": "blog.post",
+    "pk": 7,
+    "fields": {
+        "title": "Why biking is good!",
+        "slug": "why-biking-is-good",
+        "author": 1,
+        "updated_on": "2022-02-25T14:30:10.703Z",
+        "content": "To be fit and healthy you need to be physically active. Regular physical activity can help protect you from serious diseases such as obesity, heart disease, cancer, mental illness, diabetes and arthritis. Riding your bicycle regularly is one of the best ways to reduce your risk of health problems associated with a sedentary lifestyle.\r\n\r\nCycling is a healthy, low-impact exercise that can be enjoyed by people of all ages, from young children to older adults. It is also fun, cheap and good for the environment.\r\n\r\nRiding to work or the shops is one of the most time-efficient ways to combine regular exercise with your everyday routine. An estimated one billion people ride bicycles every day – for transport, recreation and sport.\r\n\r\nIt only takes two to four hours a week to achieve a general improvement to your health. Cycling is:\r\n\r\nLow impact – it causes less strain and injuries than most other forms of exercise.\r\nA good muscle workout– cycling uses all of the major muscle groups as you pedal.\r\nEasy – unlike some other sports, cycling does not require high levels of physical skill. Most people know how to ride a bike and, once you learn, you don’t forget.\r\nGood for strength and stamina– cycling increases stamina, strength and aerobic fitness.\r\nAs intense as you want– cycling can be done at very low intensity to begin with, if recovering from injury or illness, but can be built up to a demanding physical workout.\r\nA fun way to get fit– the adventure and buzz you get from coasting down hills and being outdoors means you are more likely to continue to cycle regularly, compared to other physical activities that keep you indoors or require special times or places.\r\nTime-efficient – as a mode of transport, cycling replaces sedentary (sitting) time spent driving motor vehicles or using trams, trains or buses with healthy exercise.",
+        "created_on": "2022-02-25T14:24:19.568Z",
+        "image_url": null,
+        "image": "biking.png",
+        "status": 1
+    }
+}, {
+    "model": "blog.post",
+    "pk": 8,
+    "fields": {
+        "title": "Exercise Makes you Less Anxious",
+        "slug": "exercise-makes-you-less-anxious",
+        "author": 1,
+        "updated_on": "2022-02-25T14:38:46.010Z",
+        "content": "Is there anything negative to say about exercise?\r\n\r\nAccording to a recent article in The New York Times, exercise not just enhances mood and reduces anxiety but scientists are on the groundbreaking cusp of understanding the physiological processes that enable you to feel that amazing workout high after a long run or trek on the treadmill.\r\n\r\nWe have long known that exercise enables the growth of new brain cells. But at an October meeting for the Society for Neuroscience in Chicago, researchers from Princeton University revealed a startling revelation: In response to exercise, brains are calmer and more able to respond to stressful stimuli than brains that have not been exposed to regular exercise.\r\n\r\n\r\nWhile the research was conducted on rats, the study does hold powerful implications for the far-reaching benefits of exercise in humans.\r\n\r\nAccording to The New York Times, rats whose oxidative-stress levels had been artificially increased with injections of certain chemicals were extremely anxious when faced with unfamiliar terrain during laboratory testing. But rats that had exercised, even if they had received the oxidizing chemical, were relatively nonchalant under stress.\r\n\r\n“It looks more and more like the positive stress of exercise prepares cells and structures and pathways within the brain so that they’re more equipped to handle stress in other forms,” says Michael Hopkins, a graduate student affiliated with the Neurobiology of Learning and Memory Laboratory at Dartmouth.\r\n\r\nSo if you find yourself this week waiting in an airport line 200 people deep or with a houseful of ungrateful and cranky relatives, show your nervous system some love and move your body.",
+        "created_on": "2022-02-25T14:37:56.787Z",
+        "image_url": null,
+        "image": "post2_WLzr2Qh.jpg",
+        "status": 1
+    }
+}]

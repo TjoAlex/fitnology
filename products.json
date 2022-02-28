@@ -1,0 +1,435 @@
+[{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "category": 1,
+        "sku": "FN-SC-BL",
+        "name": "Fitbit Aira Air",
+        "description": "A easy-to-use smart scale that display your weight and syncs it to the Fitbit app that let you know your BMI, track trends over time and more.",
+        "has_sizes": false,
+        "price": "60.00",
+        "rating": null,
+        "image_url": "https://www.fitbit.com/global/content/dam/fitbit/global/pdp/aria-air/hero-static/black-aria-air-scale-front.png",
+        "image": "fitbit_scale_black_NHPkkvx.png"
+    }
+}, {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "category": 1,
+        "sku": "FN-SC-WH",
+        "name": "Fitbit Aira Air",
+        "description": "An easy-to-use smart scale that displays your weight and syncs it to the Fitbit app that shows your BMI, track trends over time and more.",
+        "has_sizes": false,
+        "price": "60.00",
+        "rating": null,
+        "image_url": "https://www.fitbit.com/global/content/dam/fitbit/global/pdp/aria-air/hero-static/white-aria-air-scale-front.png",
+        "image": "fitbit_scale_white_qnNpY5K.png"
+    }
+}, {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "category": 3,
+        "sku": "FN-SW_BL",
+        "name": "Fitbit Charge 5",
+        "description": "Fitness & health tracker with ECG app for heart health, EDA Scan appfor stress management and more. Get a 6-month membership of Fitbit Premium and optimize your daily routine.",
+        "has_sizes": false,
+        "price": "200.00",
+        "rating": null,
+        "image_url": "https://www.fitbit.com/global/content/dam/fitbit/global/pdp/devices/charge-5/device-360/black/prod17.png",
+        "image": "fitbit_charge5_jJL0agY.png"
+    }
+}, {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "category": 3,
+        "sku": "FN-SW-WH",
+        "name": "Fitbit Charge 5",
+        "description": "Fitness & health tracker with ECG app for heart health, EDA Scan appfor stress management and more. Get a 6-month membership of Fitbit Premium and optimize your daily routine.",
+        "has_sizes": false,
+        "price": "200.00",
+        "rating": null,
+        "image_url": "https://www.fitbit.com/global/content/dam/fitbit/global/pdp/devices/charge-5/device-360/lunar-white/prod0.png",
+        "image": "fitbit_charge5_angel_white_Sunq2wM.png"
+    }
+}, {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "category": 3,
+        "sku": "FN-VE-BL",
+        "name": "Fitbit Versa 2",
+        "description": "Premium health & fitness smartwatch-with a Daily Readiness Score. new sleep tools, fitness features, larger AMOLED display and more.",
+        "has_sizes": false,
+        "price": "300.00",
+        "rating": null,
+        "image_url": "https://www.fitbit.com/global/content/dam/fitbit/global/pdp/versa2/device-360/black-carbon-aluminum/prod17.png",
+        "image": "fitbit_versa2_angel_black_2yVLIKp.png"
+    }
+}, {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+        "category": 3,
+        "sku": "FN-SM-WH",
+        "name": "Fitbit Versa 2",
+        "description": "Premium health & fitness smartwatch-with a Daily Readiness Score. new sleep tools, fitness features, larger AMOLED display and more.",
+        "has_sizes": false,
+        "price": "300.00",
+        "rating": null,
+        "image_url": "https://www.fitbit.com/global/content/dam/fitbit/global/pdp/versa2/device-360/stone-mist-grey-aluminum/prod0.png",
+        "image": "fitbit_versa2_grey_ADr4P7x.png"
+    }
+}, {
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+        "category": 6,
+        "sku": "FN-VX-BL",
+        "name": "VAHA X",
+        "description": "The smart mirror VAHA is a design piece for your home - made of steel, brushed aluminium and glass. For trainings, it has a high-resolution display, camera, speakers and microphone. In addition, the VAHA provides access to many third-party applications.",
+        "has_sizes": false,
+        "price": "200.00",
+        "rating": null,
+        "image_url": "https://www.ispo.com/sites/default/files/styles/half_content_width_desktop_wide/public/2021-01/ispo-award-2021-gold-winner-VAHA-Home-Fitness-Machines_ARTIKEL_1_etone-motion-analysis.webp?itok=7LUPMQjQ",
+        "image": "vaha_x_orZkeX7.png"
+    }
+}, {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+        "category": 6,
+        "sku": "FN-VS-BL",
+        "name": "VAHA S",
+        "description": "The smart mirror VAHA is a design piece for your home - made of steel, brushed aluminium and glass. For trainings, it has a high-resolution display, camera, speakers and microphone. In addition, the VAHA provides access to many third-party applications.",
+        "has_sizes": false,
+        "price": "100.00",
+        "rating": null,
+        "image_url": "https://www.ispo.com/sites/default/files/styles/half_content_width_desktop_wide/public/2021-01/ispo-award-2021-gold-winner-VAHA-Home-Fitness-Machines_ARTIKEL_1_etone-motion-analysis.webp?itok=7LUPMQjQ",
+        "image": "vaha_s_Zw6L94X.png"
+    }
+}, {
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+        "category": 4,
+        "sku": "FN-SB-BL",
+        "name": "H2OPal Hydration Tracker",
+        "description": "The H2OPal is a pretty unique entry. Not only does it remind you when to hydrate, but it does so based on you and other factors. The H2OPal will adjust its alerts to make sure that you’re drinking more water.",
+        "has_sizes": false,
+        "price": "99.00",
+        "rating": null,
+        "image_url": null,
+        "image": "hydra_tracker.png"
+    }
+}, {
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+        "category": 4,
+        "sku": "FN-HP-BL",
+        "name": "HidrateSpark PRO",
+        "description": "This smart water bottle in stainless steel vacuum insulated material, not only keeps your drinks cold up to 25 hours but will also make sure to remind you when it is time to drink. This with the help of LED smart sensor \"puck\" that glows each time it's time to drink. It also tracks your water intake by syncing via bluetooth to the HidrateSpark app.",
+        "has_sizes": false,
+        "price": "69.99",
+        "rating": null,
+        "image_url": null,
+        "image": "hidrate.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 13,
+    "fields": {
+        "category": 8,
+        "sku": "FN-SR-TP",
+        "name": "SmartRope PURE",
+        "description": "This jumping rope from Tangram have built in sensors that will continuously track your exact movements with the rope. It is freely adjustable so that the rope length can fit to your height. The design is transparent, and is made by a sturdy material providing a smooth grip.",
+        "has_sizes": false,
+        "price": "59.95",
+        "rating": null,
+        "image_url": null,
+        "image": "smartrope.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 15,
+    "fields": {
+        "category": 3,
+        "sku": "FN-SW-AZ-BL",
+        "name": "AMAZFIT GTR 2",
+        "description": "The large 1.39-inch high-resolution AMOLED screen with 326pps pixel density gives you a clear and vivid experience when you look at it. Features such as voice control, heart rate measurement and more.",
+        "has_sizes": false,
+        "price": "90.99",
+        "rating": null,
+        "image_url": null,
+        "image": "AMAZFIT-GTR-2.png"
+    }
+}, {
+    "model": "products.product",
+    "pk": 16,
+    "fields": {
+        "category": 4,
+        "sku": "FN-RS-BL",
+        "name": "RunScribe Red Gait Lab (Foot/Sacral)",
+        "description": "RunScripe have provided these footpods meant to record every step of your hike, run or walk. Gives you via the RunScripe app uploaded run data. This tool will also offer powerful visualization and analysis tools to analyze metrics, compare runs, identify trends and track the impact of shoes. All you need to do is to put these gadgets on your shooes and start moving.",
+        "has_sizes": false,
+        "price": "799.00",
+        "rating": null,
+        "image_url": null,
+        "image": "runscribe.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 17,
+    "fields": {
+        "category": 9,
+        "sku": "FN-SH-BL",
+        "name": "Waterproof Headphones IPX8",
+        "description": "IPX8 WATERPROOF BLUETOOTH HEADPHONES with IPX8 waterproof technology efficiently protect sport wireless bluetooth headphones from sweat fitness or in rainy days even swimming underwater.High level water-resistant make these wireless earphones suitable for sports such as bathing,swimming,running,skiing.The inner waterproof coating make bluetooth earbuds possible to immerse in water of 1.5 meters deep for 50 minutes without affecting the performance.\r\n8GB WATERPROOF MP3 PLAYER Waterproof earbuds for swimming built-in 8GB memory which is enough to store enough songs in MP3 format.It means that you can listen to music with this waterproof earbuds both in Bluetooth mode and MP3 mode in daily life.When swimming, you can switch to MP3 mode to enjoy music underwater freely\r\nBLUETOOTH 5.0 & HIFI STEREO SOUND QUALITY This wireless waterproof MP3 player headset adopt the most advanced bluetooth 5.0 technology,quick and automatic wireless connection.Built-in noise cancelling mic for Hifi stereo sound and deep bass sound.Clear high & low volume,makes calls clear and stable.",
+        "has_sizes": false,
+        "price": "49.99",
+        "rating": null,
+        "image_url": null,
+        "image": "waterheadphones.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 18,
+    "fields": {
+        "category": 9,
+        "sku": "FN-WH-BL",
+        "name": "Wireless Earbuds",
+        "description": "Battery Champ True Wireless Earbuds for both phone calls, music, and video\r\nLong-lasting Battery(100H playtime) - Get up to 5hrs music playback per charge, and up to 100hrs with the charging case for wireless headphones. You can also use the charging case as a power bank for your phone.\r\nImmersive Sound headphones with microphone - FlyBuds 3 true wireless earbuds with Hi-Fi stereo sound good for phone calls, music, and video. You can enjoy your very clear phone call with your love one regardless in any noisy environment, you both have no issue at all to hear each other.\r\nOne-step Pairing (No Need To Take The Ear buds Out) - Open the earbuds charging case they'll automatically connect to the last paired device! Press the button on the charging case to show the battery percentage or press and hold to unpair the device for re-pairing.\r\nIPX8 Waterproof - FlyBuds 3 wireless earbuds boast IPX8-rated protection that defends against liquids in any weather conditions.",
+        "has_sizes": false,
+        "price": "49.99",
+        "rating": null,
+        "image_url": null,
+        "image": "earbuds.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 19,
+    "fields": {
+        "category": 9,
+        "sku": "FN-EP-AP-WH",
+        "name": "APPLE AirPods",
+        "description": "New AirPods provide a whole new experience of wireless headphones. They are activated as soon as you take them out of the charging case and are ready to use with iPhone, Apple Watch, iPad or Mac.",
+        "has_sizes": false,
+        "price": "159.65",
+        "rating": null,
+        "image_url": null,
+        "image": "earpods-apple.png"
+    }
+}, {
+    "model": "products.product",
+    "pk": 21,
+    "fields": {
+        "category": 10,
+        "sku": "FN-PN_BL",
+        "name": "PELOTON BIKE +",
+        "description": "Complement your cardio with the holistic workout you crave. Move from cardio to the floor with strength, stretching, yoga and more classes to get the most immersive fitness experience right from the comfort of home.",
+        "has_sizes": false,
+        "price": "249.00",
+        "rating": null,
+        "image_url": null,
+        "image": "pelot.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 22,
+    "fields": {
+        "category": 10,
+        "sku": "FN-SB-NT-BL",
+        "name": "NordicTrack Studio Cycle",
+        "description": "Bring Home Interactive Personal Training powered by iFIT; 30 days iFIT membership included; Access live, studio, and global workouts\r\n22 inches Interactive HD Touchscreen Display streams on-demand iFit workouts directly to your equipment and provides easy stats tracking; Adjustable display mount allows for 360-degree screen rotation\r\n-10 to 20 percent LIVE Incline Matching technology; 24 digital resistance levels for complete workout control; Watts readout tracks your power output\r\nSMR Silent Magnetic Resistance delivers a smooth, quiet workout with every use; Adjustable leveling feet stabilize your bike; (2) 1.4 kg dumbbells for cross-training on your bike\r\n150 kg user weight capacity; Assembled dimensions: 140 x 55 x 146 cm, Warranty: 2 Years parts and labour; 5 year frame guarantee upon warranty registration within 28 days of purchase",
+        "has_sizes": false,
+        "price": "144.49",
+        "rating": null,
+        "image_url": null,
+        "image": "nordic-bike.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 23,
+    "fields": {
+        "category": 10,
+        "sku": "FN-TM-BL",
+        "name": "Foldable Treadmill",
+        "description": "Affordable treadmill in a stylish design with a quiet engine.\r\nAlso excellent as a treadmill.\r\nSpeed up to 12km / h.\r\nEasy to fold when not in use.\r\nEasy-to-use illuminated LCD display with calorie burn, speed, time, distance and heart rate monitor.",
+        "has_sizes": false,
+        "price": "373.90",
+        "rating": null,
+        "image_url": null,
+        "image": "foldable.png"
+    }
+}, {
+    "model": "products.product",
+    "pk": 24,
+    "fields": {
+        "category": 10,
+        "sku": "FN-TM-BL",
+        "name": "LK6200 SMART FOCUS TREADMILL",
+        "description": "Bluetooth function - connect training app in Android / iPhone\r\nSpeed up to 18km / h.\r\nMotorized tilt adjustment up to 15%.\r\nMaximum user weight 130 kg\r\n12 training programs with a special HRC (Heart Rate Control) program.\r\n8-point shock-absorbing running surface - spares the knees.\r\nLarge running surface in the price range - 140 cm long and 45 cm wide running surface.\r\nEasy to fold when not in use. Brake with gas suspension (important safety function).\r\nLarge illuminated 5 \"LCD display with heart rate monitor.\r\nMP3 function with several built-in speakers.",
+        "has_sizes": false,
+        "price": "9850.86",
+        "rating": null,
+        "image_url": null,
+        "image": "treadmill.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 25,
+    "fields": {
+        "category": 1,
+        "sku": "FN-WM-BL",
+        "name": "Wave Bluetooth Fitness Scale",
+        "description": "A Smart Scale with 13 body measurements - BMI Analyzer and Body fat scale for men and women. Getting in shape is easier when you’re using the Wave Medical Bluetooth digital scale bathroom! This smart scale provides 13 body indices that allow you to keep up with the changes and personalize your diet and workout easier. You can set it up and connect the fitness scale to the app within seconds to accelerate progress today!",
+        "has_sizes": false,
+        "price": "25.95",
+        "rating": null,
+        "image_url": "https://m.media-amazon.com/images/I/61uBMoGIP9L._AC_SX615_SY462_.jpg",
+        "image": "wavescale.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 26,
+    "fields": {
+        "category": 9,
+        "sku": "FN-JA-BL",
+        "name": "Jabra Elite Sport Earbuds",
+        "description": "This is it, the ultimate headphones! At least that is what we think. These earbuds are easy to wear come with great sound quality that allows you to listen to your favorite soundtrack, or stay on the call with your loved ones, without having to face any sound-related issues. Contain two microphones located in each bud. These microphones work to block out all sorts of background noises while ensuring that your voice is clearly heard whilst still having long-lasting battery. Moreover, it offers a highly advanced heart rate monitor, which makes it the top choice among athletes, bodybuilders, and fitness freaks. Also, it includes an automatic rep counter, as well as a race pace predictor. And lastly they are waterproof, what more could we say.",
+        "has_sizes": false,
+        "price": "109.99",
+        "rating": null,
+        "image_url": "https://cdn11.bigcommerce.com/s-q8jsr/images/stencil/1000x1000/products/1460/9413/Jabra_Elite_75t_5__37862.1576590325.jpg?c=2",
+        "image": "jabraelite.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 27,
+    "fields": {
+        "category": 8,
+        "sku": "FN-BF-DB-BL",
+        "name": "Bowflex SelectTech 560 Dumbbells",
+        "description": "With this SelectTech weight set, you will be able to adjust it’s weight setting from 5-60lbs. In addition, with it’s integrated Bluetooth technology, you will be able to record and track sets, reps and the weight for each of your workouts through it’s interactive app. Compatible with iOS and Androids.",
+        "has_sizes": false,
+        "price": "399.00",
+        "rating": null,
+        "image_url": "https://www.canadiansmarthomes.ca/wp-content/uploads/2020/03/Bowflex-Selecttech-560-Dumbbells-450x300.jpg",
+        "image": "bowflex.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 28,
+    "fields": {
+        "category": 4,
+        "sku": "FN-PE-BG-BL",
+        "name": "Paqsule Self Cleaning Bag",
+        "description": "This lightweight bag remove odors & freshen shoes with it's cleaning technology on the go. It contains pockets for your choose, laptop and cellphone but it is the center compartment where the magic happens and the clothing you put in there will be removed from bacteria and become clean. The entire system is controlled via an app where you can choose how and when you want the bag to do it's magic. It also contains a small apartment holding a usb where you can charge your phone or headphones. What more could a person need?",
+        "has_sizes": false,
+        "price": "149.00",
+        "rating": null,
+        "image_url": "https://fitpedia.com/wp-content/uploads/2017/03/paqsule2.jpg",
+        "image": "gymbagpaqsule.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 29,
+    "fields": {
+        "category": 8,
+        "sku": "FN-TM-YM-BL",
+        "name": "ToastiMat Heated Yoga",
+        "description": "ToastiMat heated yoga mat is perfect for the Whole-Body for exercising, relaxing, sleeping, camping, work and more. It provides the Ultimate Heating Mat For Warmth & Comfort by penetrating infrared heat to your deep tissues. This active heat comforts, restores, and relaxes to your core. It is completely safe, just Plug-in your infrared yoga mat, turn on, and bring on the heat!",
+        "has_sizes": false,
+        "price": "119.95",
+        "rating": "0.00",
+        "image_url": "https://cozywinters.com/shopping/graphics/00000001/toastimat-whole-body-heated-mat_A_540x540.jpg",
+        "image": "toastimat.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 30,
+    "fields": {
+        "category": 4,
+        "sku": "FN-LH-BL",
+        "name": "Lenz Heat Sock",
+        "description": "Lenz Heat Sock 4.0 is a ski sock of the highest quality, with a built-in heating element that is so discreet that you do not notice it. The sock is sweat-transporting and is reinforced where there is the greatest pressure on the sock. The heating zone includes both the top and bottom of the toes. The content of merino wool contributes to the sock's fantastic thermal properties.",
+        "has_sizes": false,
+        "price": "200.49",
+        "rating": null,
+        "image_url": "https://www.sportshop.at/media/image/1b/ab/a7/SOX06.png",
+        "image": "heatsocks.png"
+    }
+}, {
+    "model": "products.product",
+    "pk": 31,
+    "fields": {
+        "category": 5,
+        "sku": "FN-OR-HJ-WM",
+        "name": "ORORO Women's Heated Jacket",
+        "description": "STYLISH DESIGN WITH BREATHABLE FABRIC: Soft shell fabric exterior with fleece lining ensures you don't lose any excess heat and enjoy comfortable warmth; Detachable hood is specially designed for chilly mornings and extra protection on windy days; Slim-fit design relieves you of worrying about bulkiness.\r\nHEAT ACROSS BODY: 3 carbon fiber heating elements generate heat across core body areas (left & right chest, mid-back); Adjust 3 heating settings (High, medium, low) with just a simple press of the button.",
+        "has_sizes": true,
+        "price": "145.99",
+        "rating": null,
+        "image_url": "https://m.media-amazon.com/images/I/612f2TsNwaL._AC_SL1500_.jpg",
+        "image": "womenheatjacket.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 32,
+    "fields": {
+        "category": 5,
+        "sku": "FN-OR-HJ_MN",
+        "name": "ORORO Men's Heated Jacket",
+        "description": "NEAT AND TAILORED DESIGN WITH DURABLE FABRIC: Softshell fabric exterior with breathable linning ensures you don't lose any excess heat and enjoy comfortable warmth; Detachable hood is specially designed for chilly mornings and extra protection on windy days; Water and wind resistance for your unrestricted movement towards outdoor\r\nHEAT ACROSS BODY: 3 carbon fiber heating elements generate heat across core body areas (left & right chest, mid-back); Adjust 3 heating settings (High, medium, low) with just a simple press of the button.",
+        "has_sizes": true,
+        "price": "149.99",
+        "rating": null,
+        "image_url": "https://cdn.shopify.com/s/files/1/1990/8907/products/uQ3KmXf4UmjBbHm5KqEchnigv7JWxDe0-24_1200x.progressive.jpg?v=1571510615",
+        "image": "menheatjacket.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 33,
+    "fields": {
+        "category": 4,
+        "sku": "FN-HG-BL",
+        "name": "Heated Glove",
+        "description": "Men and/or Women electric rechargeable lithium polymer battery heated glove liners for skiing motorcycyling hunting etc. This heated thin liner with limited insulating ability on their own - they are best used with an insulating glove over the heated liner. The outer layer of the glove is made of Lycra and neoprene materials,and inside with breathable comfort Fleece. The Velcro design at the wrist , adjustable and full protect on your wrist.",
+        "has_sizes": true,
+        "price": "29.99",
+        "rating": null,
+        "image_url": "https://skigearguide.com/wp-content/uploads/2021/12/Heated-Glove-Liners-Rechargeable-Battery.jpg",
+        "image": "heatglove.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 34,
+    "fields": {
+        "category": 4,
+        "sku": "FN-HT-BL",
+        "name": "Hat with bluetooth, Headphones",
+        "description": "A warm and comfortable hat to walk or run in during the cold days of autumn and winter. Also connect the hat via Bluetooth to the phone to simultaneously listen to your favorite songs through the built-in headphones!\r\nThe headphones are built-in over the ears and play with a clear sound and good bass. The hat's material naturally also helps to attenuate the sound from the surroundings, which means that you can listen to podcasts on the bus or subway undisturbed.\r\nIf you get a call, the cap will tell you which number to call and you can answer directly with a button on the cap. The microphone in the hat works very well and gives a clear and distinct sound to the person listening at the other end.\r\nWith the buttons on the hat, you can also change song, play, pause, dial, hang up, dial the previous number and a number of other functions. The cap is charged with the included Micro-USB cable in about 2.5 hours and then has about 5 hours of battery life with continuous playback.",
+        "has_sizes": false,
+        "price": "24.00",
+        "rating": null,
+        "image_url": "https://inf.se/93711-large_default/mossa-med-bluetooth-h-rlurar-och-mikrofon---svart.jpg",
+        "image": "smarterhat.jpg"
+    }
+}, {
+    "model": "products.product",
+    "pk": 35,
+    "fields": {
+        "category": 4,
+        "sku": "FN-HT-BL-LT",
+        "name": "Hat with LED lamp",
+        "description": "A warming, knitted hat with integrated, rechargeable LED headlamp of 120 lumens, with a light range of up to 20 meters. The lamp has up to 20 hours of burning time per charge, as well as three different levels of brightness. The lamp can be easily removed to be charged via USB, or if you want to wash the hat.",
+        "has_sizes": false,
+        "price": "17.00",
+        "rating": null,
+        "image_url": "https://quickbutik.imgix.net/24629u/products/6214b677ed545.jpeg",
+        "image": "hatwithlight.jpeg"
+    }
+}]
